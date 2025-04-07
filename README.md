@@ -58,8 +58,8 @@ Here are a few projects I’ve worked on:
   Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and
   vehicle fleet management.
 
-- [Churn Analysis Part 1](https://public.tableau.com/views/MorrellParrishD211PA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Churn Analysis Part 2](https://public.tableau.com/views/Churn_17372640334140/ChurnAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Churn Analysis Part 1](https://public.tableau.com/views/MorrellParrishD211PA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Churn Analysis Part 2](https://public.tableau.com/views/Churn_17372640334140/ChurnAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ---
