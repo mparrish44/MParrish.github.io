@@ -58,8 +58,6 @@ Here are a few projects I’ve worked on:
 
 ## Certifications & Courses
 
-## Certifications & Courses
-
 - [Data Engineering with AWS](https://www.udacity.com/certificate/e/d6bb202e-eed5-11ef-b642-238d7fc4f7f4)
 - [Masters of Data Analytics | Data Engineering](https://www.wgu.edu/alumni/commencement/e-diploma-verification/validate.html)
 - [Automate Data Pipelines](https://www.udacity.com/certificate/e/84eb1c78-e9ca-11ef-9f98-bf3d146a7f10)
