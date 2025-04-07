@@ -42,13 +42,16 @@ Here are a few projects I’ve worked on:
   This project builds an ETL pipeline for Sparkify, a music streaming startup, using Amazon Redshift.
   The pipeline extracts JSON log & song data from AWS S3, stages it in Redshift, and transforms it into a star
   schema for analytical queries.
+  
   [Cloud Data Warehouse Repository](https://github.com/mparrish44/Cloud_Data_Warehouse.git)
 
 - **Data Piplines with Apache Airflow**
-  [Udacity WGUD608 Repository](https://github.com/mparrish44/Udacity-WGUD608.git)
+  
+  [Pipelines with Apache Airflow](https://github.com/mparrish44/Udacity-WGUD608.git)
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**
-  Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
+  Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.
+   
   [OVM AI Predictive Model](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
 
 - **Data Visualization Dashboard**  
