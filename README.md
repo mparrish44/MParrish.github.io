@@ -59,7 +59,7 @@ Here are a few projects I’ve worked on (to be added/expanded):
 
 ##  Education
 
-**M.S. in Data Analytics**, Western Governors University (2025)  
+**M.S. in Data Analytics**, Western Governors University 
 **M.S. in Management Information Systems**, National University  
 **B.S. in Information Systems**, National University  
 **A.S. in Computer Science**, University of Arkansas Grantham  
