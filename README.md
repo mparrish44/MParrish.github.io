@@ -59,7 +59,6 @@ Here are a few projects I’ve worked on:
 
 ## Certifications & Courses
 
-
 - [Data Engineering with AWS](https://www.udacity.com/certificate/e/d6bb202e-eed5-11ef-b642-238d7fc4f7f4)
 - [Masters of Data Analytics | Data Engineering](https://www.wgu.edu/alumni/commencement/e-diploma-verification/validate.html)
 - [Automate Data Pipelines](https://www.udacity.com/certificate/e/84eb1c78-e9ca-11ef-9f98-bf3d146a7f10)
@@ -68,17 +67,16 @@ Here are a few projects I’ve worked on:
 - [WGU Specialization: Data Engineering Professional](https://badgr.com/public/assertions/raOsLm74TZikdnssEtyC7g)
 - [Data Processing](https://www.udacity.com/certificate/e/4c2f6496-e715-11ef-bebd-a7ec5f8ac84c)
 
-
 ---
 
 ## Education
 
-| **Degree**                                   | **Institution**                                |
-|----------------------------------------------|------------------------------------------------|
-| **M.S. in Data Analytics**                   | Western Governors University                  |
-| **M.S. in Management Information Systems**   | National University                           |
-| **B.S. in Information Systems**              | National University                           |
-| **A.S. in Computer Science**                 | University of Arkansas Grantham               |
+| **Degree**                                         | **Institution**                                |
+|----------------------------------------------------|------------------------------------------------|
+| **M.S. in Data Analytics | Data Engineering**     | Western Governors University                  |
+| **M.S. in Management Information Systems**         | National University                           |
+| **B.S. in Information Systems**                    | National University                           |
+| **A.S. in Computer Science**                       | University of Arkansas Grantham               |
 
 ---
 
