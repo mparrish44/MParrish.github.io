@@ -1,8 +1,8 @@
-**Data Analyst | Data Engineer | IT Systems Expert**
-  
+# Morrell Parrish | Data Analyst | Data Engineer | IT Systems Expert
 
-Morrell.Parrish@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/morrellparrish)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/morrellparrish)
+[![Email](https://img.shields.io/badge/Email-Morrell.Parrish@gmail.com-red?logo=gmail)](Morrell.Parrish@gmail.com)
+
 
 ---
 
