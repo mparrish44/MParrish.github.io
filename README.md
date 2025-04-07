@@ -42,8 +42,23 @@ Here are a few projects I’ve worked on:
   Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
   _[Repo Link Placeholder]_
 
+- **Automated ETL Pipeline (AWS)**
+
+- **Automated ETL Pipeline (AWS)**
+
+- **Vehicle Maintenance Analysis (AI Predictive Model)** 
+
+https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git
+
+  _[[Repo Link Placeholder](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git
+)]_
+
+
+
+
 - **Data Visualization Dashboard**  
-  Created interactive dashboards using Power BI and Tableau to visualize KPIs across education and non-profit orgs.  
+  Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and vehicle fleet
+  management.
   _[Insert project details or screenshots here]_
 
 ---
