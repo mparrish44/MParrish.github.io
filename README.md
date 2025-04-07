@@ -32,7 +32,7 @@ My journey spans across educational institutions, military intelligence, and non
 
 ##  Projects
 
-Here are a few projects I’ve worked on (to be added/expanded):
+Here are a few projects I’ve worked on:
 
 - **Locker Management Web App**  
   A full-stack web app to manage student lockers, built using Flask, Bootstrap, and PostgreSQL. Includes user roles for admins, teachers, and students.  
