@@ -59,16 +59,15 @@ Here are a few projects I’ve worked on:
 
 ## Certifications & Courses
 
-- Data Engineering with AWS | Udacity  
-- Automate Data Pipelines | Udacity  
-- Spark and Data Lakes | Udacity  
-- Data Analytics at Scale | WGU  
-- Data Engineering Professional | WGU  
-- Data Processing | WGU  
-- Introduction to Data Analytics | IBM  
-- Querying Databases | Coursera  
-- SQL for Data Science | University of California, Davis  
-- Salesforce Introduction | LearnKarts
+
+- [Data Engineering with AWS](https://www.udacity.com/certificate/e/d6bb202e-eed5-11ef-b642-238d7fc4f7f4)
+- [Masters of Data Analytics | Data Engineering](https://www.wgu.edu/alumni/commencement/e-diploma-verification/validate.html)
+- [Automate Data Pipelines](https://www.udacity.com/certificate/e/84eb1c78-e9ca-11ef-9f98-bf3d146a7f10)
+- [Spark and Data Lakes](https://www.udacity.com/certificate/e/76adf61e-ee55-11ef-ae49-bfda98569087)
+- [Data Analytics at Scale](https://www.udacity.com/certificate/e/0d2a7a2e-ee54-11ef-be04-534be461e550)
+- [WGU Specialization: Data Engineering Professional](https://badgr.com/public/assertions/raOsLm74TZikdnssEtyC7g)
+- [Data Processing](https://www.udacity.com/certificate/e/4c2f6496-e715-11ef-bebd-a7ec5f8ac84c)
+
 
 ---
 
