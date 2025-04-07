@@ -1,5 +1,3 @@
-# Morrell Parrish
-
 **Data Analyst | Data Engineer | IT Systems Expert**
 
 📍 San Diego, CA  
