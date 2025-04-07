@@ -46,12 +46,9 @@ Here are a few projects I’ve worked on:
 
 - **Automated ETL Pipeline (AWS)**
 
-- **Vehicle Maintenance Analysis (AI Predictive Model)** 
+- **Vehicle Maintenance Analysis (AI Predictive Model)**
 
-https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git
-
-  _[[Repo Link Placeholder](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git
-)]_
+- [Vehicle Maintenance Analysis Repository](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
 
 
 
