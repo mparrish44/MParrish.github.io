@@ -46,7 +46,7 @@ Here are a few projects I’ve worked on:
   Designed and deployed an ETL pipeline usign AWS Redshift and Docker.
   [Pipelines with Apache Airflow](https://github.com/mparrish44/Udacity-WGUD608.git)
 
- - **Apache Spark and Datalakes**
+- **Apache Spark and Datalakes**
   Designed and deployed an ETL pipeline usign AWS Redshift and Docker.
   [STEDI Human Balance Analytics](https://github.com/mparrish44/STEDI-Human-Balance-Analytics.git)
 
