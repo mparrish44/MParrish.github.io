@@ -1,0 +1,55 @@
+-- Created by Vertabelo (http://vertabelo.com)
+-- Last modification date: 2019-06-02 19:05:15.181
+
+-- foreign keys
+ALTER TABLE Department
+    DROP FOREIGN KEY Department_JobPosition;
+
+ALTER TABLE Employee
+    DROP FOREIGN KEY Employee_Department;
+
+ALTER TABLE EmployessTraining
+    DROP FOREIGN KEY EmployessTraining_Employee;
+
+ALTER TABLE EmployessTraining
+    DROP FOREIGN KEY EmployessTraining_Trainer;
+
+ALTER TABLE EmployessTraining
+    DROP FOREIGN KEY EmployessTraining_TrainingCourses;
+
+ALTER TABLE TrainingCourses
+    DROP FOREIGN KEY TrainingCourses_EvalLevel;
+
+ALTER TABLE TrainingCourses
+    DROP FOREIGN KEY TrainingCourses_EvalMethod;
+
+ALTER TABLE TrainingCourses
+    DROP FOREIGN KEY TrainingCourses_EvalStatus;
+
+ALTER TABLE JobPosition
+    DROP FOREIGN KEY TrainingCourses_JobPosition;
+
+ALTER TABLE TrainingCourses
+    DROP FOREIGN KEY TrainingCourses_Trainer;
+
+-- tables
+DROP TABLE CrseStatus;
+
+DROP TABLE Department;
+
+DROP TABLE Employee;
+
+DROP TABLE EmployessTraining;
+
+DROP TABLE EvalLevel;
+
+DROP TABLE EvalMethod;
+
+DROP TABLE JobPosition;
+
+DROP TABLE Trainer;
+
+DROP TABLE TrainingCourses;
+
+-- End of file.
+

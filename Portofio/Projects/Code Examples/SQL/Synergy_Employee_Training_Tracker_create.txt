@@ -1,0 +1,132 @@
+-- Created by Vertabelo (http://vertabelo.com)
+-- Last modification date: 2019-06-02 19:05:15.181
+
+-- tables
+-- Table: CrseStatus
+CREATE TABLE CrseStatus (
+    CrseStatusID int NOT NULL,
+    CrseStatus varchar(255) NOT NULL,
+    CONSTRAINT CrseStatus_pk PRIMARY KEY (CrseStatusID)
+);
+
+-- Table: Department
+CREATE TABLE Department (
+    DepartmentID int NOT NULL,
+    DepartName varchar(255) NOT NULL,
+    JobPositionID int NOT NULL,
+    CONSTRAINT Department_pk PRIMARY KEY (DepartmentID)
+);
+
+-- Table: Employee
+CREATE TABLE Employee (
+    EmployeeID int NOT NULL,
+    EmpFirstName varchar(255) NOT NULL,
+    EmpLastName varchar(255) NOT NULL,
+    EmpEmail varchar(255) NOT NULL,
+    EmpAddress varchar(255) NOT NULL,
+    EmpPhone varchar(255) NOT NULL,
+    EmpHireDate date NOT NULL,
+    EmpTerminationDate date NOT NULL,
+    DepartmentID int NOT NULL,
+    CONSTRAINT Employee PRIMARY KEY (EmployeeID)
+);
+
+-- Table: EmployessTraining
+CREATE TABLE EmployessTraining (
+    EmployeeTrainingID int NOT NULL,
+    TrainingCourses_TrainingCrseID int NOT NULL,
+    Employee_EmployeeID int NOT NULL,
+    TrainerID int NOT NULL,
+    CONSTRAINT EmployessTraining_pk PRIMARY KEY (EmployeeTrainingID)
+);
+
+-- Table: EvalLevel
+CREATE TABLE EvalLevel (
+    EvalLvlID int NOT NULL,
+    EvalLvl int NOT NULL,
+    EvalLvlDescrip int NOT NULL,
+    CONSTRAINT EvalLevel_pk PRIMARY KEY (EvalLvlID)
+) COMMENT 'Evaluation Level';
+
+-- Table: EvalMethod
+CREATE TABLE EvalMethod (
+    EvalMethID int NOT NULL,
+    EvalMethDescrip text NOT NULL,
+    CONSTRAINT EvalMethod_pk PRIMARY KEY (EvalMethID)
+);
+
+-- Table: JobPosition
+CREATE TABLE JobPosition (
+    JobPositionID int NOT NULL,
+    PositionName varchar(255) NOT NULL,
+    TrainingCrseID int NOT NULL,
+    CONSTRAINT JobPositionID PRIMARY KEY (JobPositionID)
+);
+
+-- Table: Trainer
+CREATE TABLE Trainer (
+    TrainerID int NOT NULL,
+    TrainerFirstName varchar(255) NOT NULL,
+    TrainerLastName varchar(255) NOT NULL,
+    CONSTRAINT Trainer_pk PRIMARY KEY (TrainerID)
+);
+
+-- Table: TrainingCourses
+CREATE TABLE TrainingCourses (
+    TrainingCrseID int NOT NULL,
+    TrainingName varchar(255) NOT NULL,
+    TrainingDescrip varchar(255) NOT NULL,
+    CourseHrs double(2,0) NOT NULL,
+    TrainerID int NOT NULL,
+    EvalMethID int NOT NULL,
+    CrseStatusID int NOT NULL,
+    EvalLvlID int NOT NULL,
+    CourseStart date NOT NULL,
+    CourseEnd date NOT NULL,
+    CourseStatus varchar(255) NOT NULL,
+    CONSTRAINT TrainingCrseID PRIMARY KEY (TrainingCrseID)
+);
+
+-- foreign keys
+-- Reference: Department_JobPosition (table: Department)
+ALTER TABLE Department ADD CONSTRAINT Department_JobPosition FOREIGN KEY Department_JobPosition (JobPositionID)
+    REFERENCES JobPosition (JobPositionID);
+
+-- Reference: Employee_Department (table: Employee)
+ALTER TABLE Employee ADD CONSTRAINT Employee_Department FOREIGN KEY Employee_Department (DepartmentID)
+    REFERENCES Department (DepartmentID);
+
+-- Reference: EmployessTraining_Employee (table: EmployessTraining)
+ALTER TABLE EmployessTraining ADD CONSTRAINT EmployessTraining_Employee FOREIGN KEY EmployessTraining_Employee (Employee_EmployeeID)
+    REFERENCES Employee (EmployeeID);
+
+-- Reference: EmployessTraining_Trainer (table: EmployessTraining)
+ALTER TABLE EmployessTraining ADD CONSTRAINT EmployessTraining_Trainer FOREIGN KEY EmployessTraining_Trainer (TrainerID)
+    REFERENCES Trainer (TrainerID);
+
+-- Reference: EmployessTraining_TrainingCourses (table: EmployessTraining)
+ALTER TABLE EmployessTraining ADD CONSTRAINT EmployessTraining_TrainingCourses FOREIGN KEY EmployessTraining_TrainingCourses (TrainingCourses_TrainingCrseID)
+    REFERENCES TrainingCourses (TrainingCrseID);
+
+-- Reference: TrainingCourses_EvalLevel (table: TrainingCourses)
+ALTER TABLE TrainingCourses ADD CONSTRAINT TrainingCourses_EvalLevel FOREIGN KEY TrainingCourses_EvalLevel (EvalLvlID)
+    REFERENCES EvalLevel (EvalLvlID);
+
+-- Reference: TrainingCourses_EvalMethod (table: TrainingCourses)
+ALTER TABLE TrainingCourses ADD CONSTRAINT TrainingCourses_EvalMethod FOREIGN KEY TrainingCourses_EvalMethod (EvalMethID)
+    REFERENCES EvalMethod (EvalMethID);
+
+-- Reference: TrainingCourses_EvalStatus (table: TrainingCourses)
+ALTER TABLE TrainingCourses ADD CONSTRAINT TrainingCourses_EvalStatus FOREIGN KEY TrainingCourses_EvalStatus (CrseStatusID)
+    REFERENCES CrseStatus (CrseStatusID);
+
+-- Reference: TrainingCourses_JobPosition (table: JobPosition)
+ALTER TABLE JobPosition ADD CONSTRAINT TrainingCourses_JobPosition FOREIGN KEY TrainingCourses_JobPosition (TrainingCrseID)
+    REFERENCES TrainingCourses (TrainingCrseID);
+
+-- Reference: TrainingCourses_Trainer (table: TrainingCourses)
+ALTER TABLE TrainingCourses ADD CONSTRAINT TrainingCourses_Trainer FOREIGN KEY TrainingCourses_Trainer (TrainerID)
+    REFERENCES Trainer (TrainerID);
+
+-- End of file.
+
