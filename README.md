@@ -1,12 +1,12 @@
 **Data Analyst | Data Engineer | IT Systems Expert**
+  
 
-📍 San Diego, CA  
-📧 Morrell.Parrish@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/morrellparrish)  
+Morrell.Parrish@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/morrellparrish)  
 
 ---
 
-## 🧠 About Me
+##  About Me
 
 Hi there! I'm a data analyst and data engineer with over 20 years of experience in analytics, IT support, and systems management. I specialize in designing and building robust data pipelines, managing cloud-based infrastructure, and empowering data-driven decisions through analytics and visualization.
 
@@ -14,7 +14,7 @@ My journey spans across educational institutions, military intelligence, and non
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 **Languages & Tools:**  
 `Python`, `R`, `SQL`, `Java`, `JavaScript`, `Git`, `GitHub`, `Jenkins`, `dbt`, `Apache Airflow`, `Docker`, `Terraform`  
@@ -30,7 +30,7 @@ My journey spans across educational institutions, military intelligence, and non
 
 ---
 
-## 📈 Projects
+##  Projects
 
 Here are a few projects I’ve worked on (to be added/expanded):
 
@@ -48,7 +48,7 @@ Here are a few projects I’ve worked on (to be added/expanded):
 
 ---
 
-## 🏆 Certifications
+##  Certifications
 
 - **Data Engineering with AWS** – Udacity (2025)  
 - **Data Engineering Professional** – WGU (2025)  
@@ -57,7 +57,7 @@ Here are a few projects I’ve worked on (to be added/expanded):
 
 ---
 
-## 🎓 Education
+##  Education
 
 **M.S. in Data Analytics**, Western Governors University (2025)  
 **M.S. in Management Information Systems**, National University  
@@ -66,7 +66,7 @@ Here are a few projects I’ve worked on (to be added/expanded):
 
 ---
 
-## 🌐 Let's Connect
+##  Let's Connect
 
 Feel free to connect or reach out via [LinkedIn](https://www.linkedin.com/in/morrellparrish) — always open to discussing data engineering, analytics, or collaboration opportunities!
 
