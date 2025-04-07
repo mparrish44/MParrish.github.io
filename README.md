@@ -47,8 +47,8 @@ Here are a few projects I’ve worked on:
 - **Automated ETL Pipeline (AWS)**
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**
-
-- [Vehicle Maintenance Analysis Repository](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
+  Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
+  [Link](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
 
 
 
