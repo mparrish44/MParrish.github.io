@@ -61,12 +61,9 @@ Here are a few projects I’ve worked on:
 
 ---
 
-##  Certifications
+## Certifications & Courses
 
-- **Data Engineering with AWS** – Udacity (2025)  
-- **Data Engineering Professional** – WGU (2025)  
-- **SQL for Data Science** – UC Davis via Coursera (2024)  
-- _(Full list in resume or LinkedIn)_
+- Data Engineering with AWS | Udacity | Automate Data Pipelines | Udacity | Spark and Data Lakes | Udacity | Data Analytics at Scale | WGU | Data Engineering Professional | WGU | Data Processing | WGU | Introduction to Data Analytics | IBM | Querying Databases | Coursera | SQL for Data Science | University of California, Davis | Salesforce Introduction | LearnKarts
 
 ---
 
