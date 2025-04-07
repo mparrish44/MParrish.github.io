@@ -42,8 +42,13 @@ Here are a few projects I’ve worked on:
   The pipeline extracts JSON log & song data from AWS S3, stages it in Redshift, and transforms it into a star schema for analytical queries.  
   [Cloud Data Warehouse Repository](https://github.com/mparrish44/Cloud_Data_Warehouse.git)
 
-- **Data Pipelines with Apache Airflow**  
+- **Data Pipelines with Apache Airflow**
+  Designed and deployed an ETL pipeline usign AWS Redshift and Docker
   [Pipelines with Apache Airflow](https://github.com/mparrish44/Udacity-WGUD608.git)
+
+ - **Apache Spark and Datalakes**
+  Designed and deployed an ETL pipeline usign AWS Redshift and Docker
+  [STEDI Human Balance Analytics](https://github.com/mparrish44/STEDI-Human-Balance-Analytics.git)
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**  
   Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
@@ -51,9 +56,10 @@ Here are a few projects I’ve worked on:
 
 - **Data Visualization Dashboard**  
   Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and
-  vehicle fleet management.  
-  [Churn Analysis Part 1](https://public.tableau.com/views/MorrellParrishD211PA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-  [Churn Analysis Part 2](https://public.tableau.com/views/Churn_17372640334140/ChurnAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+  vehicle fleet management.
+
+- [Churn Analysis Part 1](https://public.tableau.com/views/MorrellParrishD211PA/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Churn Analysis Part 2](https://public.tableau.com/views/Churn_17372640334140/ChurnAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ---
