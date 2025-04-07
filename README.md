@@ -38,20 +38,18 @@ Here are a few projects I’ve worked on:
   A full-stack web app to manage student lockers, built using Flask, Bootstrap, and PostgreSQL. Includes user roles for admins, teachers, and students.  
   _[Repo Link Coming Soon]_
 
-- **Automated ETL Pipeline (AWS)**  
-  Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
-  _[Repo Link Placeholder]_
+- **AWS Redshift Data Warehouse & ETL Pipeline**
+  This project builds an ETL pipeline for Sparkify, a music streaming startup, using Amazon Redshift.
+  The pipeline extracts JSON log & song data from AWS S3, stages it in Redshift, and transforms it into a star
+  schema for analytical queries.
+  [Cloud Data Warehouse Repository](https://github.com/mparrish44/Cloud_Data_Warehouse.git)
 
-- **Automated ETL Pipeline (AWS)**
-
-- **Automated ETL Pipeline (AWS)**
+- **Data Piplines with Apache Airflow**
+  [Udacity WGUD608 Repository](https://github.com/mparrish44/Udacity-WGUD608.git)
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**
   Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
   [Link](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
-
-
-
 
 - **Data Visualization Dashboard**  
   Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and vehicle fleet
