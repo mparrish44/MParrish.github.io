@@ -44,11 +44,11 @@ Here are a few projects I’ve worked on:
 
 - **Data Pipelines with Apache Airflow**
   Designed and deployed an ETL pipeline usign AWS Redshift and Docker
-  [Pipelines with Apache Airflow](https://github.com/mparrish44/Udacity-WGUD608.git)
+   [Pipelines with Apache Airflow](https://github.com/mparrish44/Udacity-WGUD608.git)
 
  - **Apache Spark and Datalakes**
   Designed and deployed an ETL pipeline usign AWS Redshift and Docker
-  [STEDI Human Balance Analytics](https://github.com/mparrish44/STEDI-Human-Balance-Analytics.git)
+   [STEDI Human Balance Analytics](https://github.com/mparrish44/STEDI-Human-Balance-Analytics.git)
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**  
   Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
