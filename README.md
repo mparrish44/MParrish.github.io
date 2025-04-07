@@ -73,7 +73,7 @@ Here are a few projects I’ve worked on:
 
 | **Degree**                                         | **Institution**                                |
 |----------------------------------------------------|------------------------------------------------|
-| **M.S. in Data Analytics | Data Engineering**     | Western Governors University                  |
+| **M.S. in Data Analytics / Data Engineering**      | Western Governors University                  |
 | **M.S. in Management Information Systems**         | National University                           |
 | **B.S. in Information Systems**                    | National University                           |
 | **A.S. in Computer Science**                       | University of Arkansas Grantham               |
