@@ -34,24 +34,29 @@ My journey spans across educational institutions, military intelligence, and non
 Here are a few projects I’ve worked on:
 
 - **Locker Management Web App**  
-  A full-stack web app to manage student lockers, built using Flask, Bootstrap, and PostgreSQL. Includes user roles for admins, teachers, and students.  
+  A full-stack web app to manage student lockers, built using Flask, Bootstrap, and PostgreSQL. Includes user roles for admins, teachers, and students.
+  
   _[Repo Link Coming Soon]_
 
 - **AWS Redshift Data Warehouse & ETL Pipeline**  
   This project builds an ETL pipeline for Sparkify, a music streaming startup, using Amazon Redshift.  
-  The pipeline extracts JSON log & song data from AWS S3, stages it in Redshift, and transforms it into a star schema for analytical queries.  
+  The pipeline extracts JSON log & song data from AWS S3, stages it in Redshift, and transforms it into a star schema for analytical queries.
+  
   [Cloud Data Warehouse Repository](https://github.com/mparrish44/Cloud_Data_Warehouse.git)
 
 - **Data Pipelines with Apache Airflow**
   Designed and deployed an ETL pipeline usign AWS Redshift and Docker.
+
   [Pipelines with Apache Airflow](https://github.com/mparrish44/Udacity-WGUD608.git)
 
 - **Apache Spark and Datalakes**
   Designed and deployed an ETL pipeline usign AWS Redshift and Docker.
+
   [STEDI Human Balance Analytics](https://github.com/mparrish44/STEDI-Human-Balance-Analytics.git)
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**  
-  Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
+  Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.
+  
   [OVM AI Predictive Model](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
 
 - **Data Visualization Dashboard**  
