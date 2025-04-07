@@ -49,7 +49,7 @@ Here are a few projects I’ve worked on:
 
 - **Vehicle Maintenance Analysis (AI Predictive Model)**
   Designed and deployed an automated ETL pipeline using AWS Glue and Redshift for batch processing and analytics.  
-  [Link](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
+  [OVM AI Predictive Model](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
 
 - **Data Visualization Dashboard**  
   Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and vehicle fleet
