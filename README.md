@@ -62,7 +62,7 @@ Here are a few projects I’ve worked on:
 - **Education Research Projects Documentation**  
   Educaition Research project paper - including code and visuals.
 
-  [Insert Link]
+  [Educational Research Documentation](https://github.com/mparrish44/MParrish.github.io/tree/main/Portfolio/Projects)
 
 - **Data Visualization Dashboard**  
   Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and
