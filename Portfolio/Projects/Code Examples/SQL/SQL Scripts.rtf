@@ -1,26 +1,25 @@
 
-
-1. Total Number of Lockers Across Buildings
+## 1. Total Number of Lockers Across Buildings
 
 SELECT COUNT(*) AS total_lockers 
 FROM lockers;
 
 
-
-2. Locker Breakdown per Building 
+## 2. Locker Breakdown per Building 
 
 SELECT buildings.building_name, COUNT(lockers.id) AS total_lockers 
 FROM lockers 
 JOIN buildings ON lockers.building_id = buildings.id
 GROUP BY buildings.building_name;
 
-3. Total Lockers Assigned vs. Available
+## 3. Total Lockers Assigned vs. Available
+
 SELECT 
     COUNT(CASE WHEN lockers.assigned_user_id IS NULL THEN 1 END) AS available_lockers,
     COUNT(CASE WHEN lockers.assigned_user_id IS NOT NULL THEN 1 END) AS assigned_lockers
 FROM lockers;
 
-3. Student-wise Locker Agreement Report
+## 4. Student-wise Locker Agreement Report
 
 SELECT 
     users.full_name AS student_name, lockers.locker_number, 
@@ -30,14 +29,13 @@ JOIN users ON lockers.assigned_user_id = users.id
 JOIN buildings ON lockers.building_id = buildings.id
 WHERE users.role = 'student';
 
-5. Numbers of Users in Each Role
+## 5. Numbers of Users in Each Role
 
 SELECT role, COUNT(*) AS user_count 
 FROM users
 GROUP BY role;
 
-6.  Lockers Assigned Per Grade Level  
-
+## 6.  Lockers Assigned Per Grade Level  
 
 SELECT grade_levels.name AS grade_level, COUNT(lockers.id) AS assigned_lockers
 FROM lockers
@@ -45,7 +43,7 @@ JOIN users ON lockers.assigned_user_id = users.id
 JOIN grade_levels ON users.grade_level_id = grade_levels.id
 GROUP BY grade_levels.name;
 
-7. Frequently Used Lockers By Teachers
+## 7. Frequently Used Lockers By Teachers
 
 SELECT 
     users.full_name AS teacher_name, COUNT(lockers.id) AS locker_assignments
@@ -56,7 +54,7 @@ GROUP BY users.full_name
 ORDER BY COUNT(lockers.id) DESC
 LIMIT 10;
 
-8.  Building Utilization (Percentage of Assigned Lockers Per Building
+## 8.  Building Utilization (Percentage of Assigned Lockers Per Building
 
 SELECT 
     buildings.building_name,
@@ -65,7 +63,7 @@ FROM lockers
 JOIN buildings ON lockers.building_id = buildings.id
 GROUP BY buildings.building_name;
 
-9.  Recently Added Lockers
+## 9.  Recently Added Lockers
 
 SELECT * 
 FROM lockers
@@ -73,7 +71,7 @@ ORDER BY created_at DESC
 LIMIT 10;
 
 
-10.  Domain-wise User Registration
+## 10.  Domain-wise User Registration
 
 SELECT 
     SUBSTRING_INDEX(email, '@', -1) AS domain,
