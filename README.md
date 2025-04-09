@@ -35,8 +35,8 @@ Here are a few projects I’ve worked on:
 
 - **Locker Management Web App**  
   A full-stack web app to manage student lockers, built using Flask, Bootstrap, and PostgreSQL. Includes user roles for admins, teachers, and students.
-  
-  _[Repo Link Coming Soon]_
+
+  [Locker Management App_](https://github.com/mparrish44/Locker_Management.git)
 
 - **AWS Redshift Data Warehouse & ETL Pipeline**  
   This project builds an ETL pipeline for Sparkify, a music streaming startup, using Amazon Redshift.  
