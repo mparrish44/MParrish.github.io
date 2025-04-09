@@ -9,7 +9,7 @@
 
 Hi there! I'm a data analyst and data engineer with over 20 years of experience in analytics, IT support, and systems management. I specialize in designing and building robust data pipelines, managing cloud-based infrastructure, and empowering data-driven decisions through analytics and visualization.
 
-My journey spans across educational institutions, military intelligence, and non-profit sectors — bringing a unique, mission-focused perspective to technology solutions.
+My journey spans across educational institutions, military, and non-profit sectors — bringing a unique, mission-focused perspective to technology solutions.
 
 ---
 
