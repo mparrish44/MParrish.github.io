@@ -81,7 +81,7 @@ Here are a few projects I’ve worked on:
 - [Automate Data Pipelines](https://www.udacity.com/certificate/e/84eb1c78-e9ca-11ef-9f98-bf3d146a7f10)
 - [Spark and Data Lakes](https://www.udacity.com/certificate/e/76adf61e-ee55-11ef-ae49-bfda98569087)
 - [Data Analytics at Scale](https://www.udacity.com/certificate/e/0d2a7a2e-ee54-11ef-be04-534be461e550)
-- [WGU Specialization: Data Engineering Professional](https://badgr.com/public/assertions/raOsLm74TZikdnssEtyC7g)
+- [WGU Specialization: Data Engineering Professional](https://api.badgr.io/public/assertions/raOsLm74TZikdnssEtyC7g?identity__email=parrishm%40wgu.edu))
 - [Data Processing](https://www.udacity.com/certificate/e/4c2f6496-e715-11ef-bebd-a7ec5f8ac84c)
 
 ---
