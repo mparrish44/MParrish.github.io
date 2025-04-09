@@ -1,127 +1,98 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11380\viewh18000\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\b\fs24 \cf0 \
-\
+
 1. Total Number of Lockers Across Buildings
-\f1\b0 \
-\
-SELECT COUNT(*) AS total_lockers \
-FROM lockers;\
-\
-\
-\
 
-\f0\b 2. Locker Breakdown per Building 
-\f1\b0 \
-\
-SELECT buildings.building_name, COUNT(lockers.id) AS total_lockers \
-FROM lockers \
-JOIN buildings ON lockers.building_id = buildings.id\
-GROUP BY buildings.building_name;\
-\
+SELECT COUNT(*) AS total_lockers 
+FROM lockers;
 
-\f0\b 3. Total Lockers Assigned vs. Available\
 
-\f1\b0 SELECT \
-    COUNT(CASE WHEN lockers.assigned_user_id IS NULL THEN 1 END) AS available_lockers,\
-    COUNT(CASE WHEN lockers.assigned_user_id IS NOT NULL THEN 1 END) AS assigned_lockers\
-FROM lockers;\
-\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\b \cf0 3. Student-wise Locker Agreement Report\
-\
+2. Locker Breakdown per Building 
 
-\f1\b0 SELECT \
-    users.full_name AS student_name, lockers.locker_number, \
-    buildings.building_name, lockers.floor, lockers.section\
-FROM lockers\
-JOIN users ON lockers.assigned_user_id = users.id\
-JOIN buildings ON lockers.building_id = buildings.id\
-WHERE users.role = 'student';\
-\
-
-\f0\b 5. Numbers of Users in Each Role\
-
-\f1\b0 \
-SELECT role, COUNT(*) AS user_count \
-FROM users\
-GROUP BY role;\
-\
-
-\f0\b 6.  Lockers Assigned Per Grade Level  \
-
-\f1\b0 \
-\
-SELECT grade_levels.name AS grade_level, COUNT(lockers.id) AS assigned_lockers\
-FROM lockers\
-JOIN users ON lockers.assigned_user_id = users.id\
-JOIN grade_levels ON users.grade_level_id = grade_levels.id\
-GROUP BY grade_levels.name;\
-\
-
-\f0\b 7. Frequently Used Lockers By Teachers\
-
-\f1\b0 \
-SELECT \
-    users.full_name AS teacher_name, COUNT(lockers.id) AS locker_assignments\
-FROM lockers\
-JOIN users ON lockers.assigned_by_user_id = users.id\
-WHERE users.role = 'teacher'\
-GROUP BY users.full_name\
-ORDER BY COUNT(lockers.id) DESC\
-LIMIT 10;\
-\
-
-\f0\b 8.  Building Utilization (Percentage of Assigned Lockers Per Building\
-\
-
-\f1\b0 SELECT \
-    buildings.building_name,\
-    ROUND(100.0 * SUM(CASE WHEN lockers.assigned_user_id IS NOT NULL THEN 1 ELSE 0 END) / COUNT(lockers.id), 2) AS utilization_percentage\
-FROM lockers\
-JOIN buildings ON lockers.building_id = buildings.id\
+SELECT buildings.building_name, COUNT(lockers.id) AS total_lockers 
+FROM lockers 
+JOIN buildings ON lockers.building_id = buildings.id
 GROUP BY buildings.building_name;
-\f0\b \
-\
-9.  Recently Added Lockers\
-\
 
-\f1\b0 SELECT * \
-FROM lockers\
-ORDER BY created_at DESC \
-LIMIT 10;\
-\
-\
+3. Total Lockers Assigned vs. Available
+SELECT 
+    COUNT(CASE WHEN lockers.assigned_user_id IS NULL THEN 1 END) AS available_lockers,
+    COUNT(CASE WHEN lockers.assigned_user_id IS NOT NULL THEN 1 END) AS assigned_lockers
+FROM lockers;
 
-\f0\b 10.  Domain-wise User Registration\
-\
+3. Student-wise Locker Agreement Report
 
-\f1\b0 SELECT \
-    SUBSTRING_INDEX(email, '@', -1) AS domain,\
-    COUNT(*) AS user_count\
-FROM users\
-GROUP BY domain\
-ORDER BY user_count DESC\
-LIMIT 5;\
+SELECT 
+    users.full_name AS student_name, lockers.locker_number, 
+    buildings.building_name, lockers.floor, lockers.section
+FROM lockers
+JOIN users ON lockers.assigned_user_id = users.id
+JOIN buildings ON lockers.building_id = buildings.id
+WHERE users.role = 'student';
 
-\f0\b \
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-}
+5. Numbers of Users in Each Role
+
+SELECT role, COUNT(*) AS user_count 
+FROM users
+GROUP BY role;
+
+6.  Lockers Assigned Per Grade Level  
+
+
+SELECT grade_levels.name AS grade_level, COUNT(lockers.id) AS assigned_lockers
+FROM lockers
+JOIN users ON lockers.assigned_user_id = users.id
+JOIN grade_levels ON users.grade_level_id = grade_levels.id
+GROUP BY grade_levels.name;
+
+7. Frequently Used Lockers By Teachers
+
+SELECT 
+    users.full_name AS teacher_name, COUNT(lockers.id) AS locker_assignments
+FROM lockers
+JOIN users ON lockers.assigned_by_user_id = users.id
+WHERE users.role = 'teacher'
+GROUP BY users.full_name
+ORDER BY COUNT(lockers.id) DESC
+LIMIT 10;
+
+8.  Building Utilization (Percentage of Assigned Lockers Per Building
+
+SELECT 
+    buildings.building_name,
+    ROUND(100.0 * SUM(CASE WHEN lockers.assigned_user_id IS NOT NULL THEN 1 ELSE 0 END) / COUNT(lockers.id), 2) AS utilization_percentage
+FROM lockers
+JOIN buildings ON lockers.building_id = buildings.id
+GROUP BY buildings.building_name;
+
+9.  Recently Added Lockers
+
+SELECT * 
+FROM lockers
+ORDER BY created_at DESC 
+LIMIT 10;
+
+
+10.  Domain-wise User Registration
+
+SELECT 
+    SUBSTRING_INDEX(email, '@', -1) AS domain,
+    COUNT(*) AS user_count
+FROM users
+GROUP BY domain
+ORDER BY user_count DESC
+LIMIT 5;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
