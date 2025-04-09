@@ -59,6 +59,11 @@ Here are a few projects I’ve worked on:
   
   [OVM AI Predictive Model](https://github.com/mparrish44/Vehicle-Maintenance-Analysis.git)
 
+- **Education Research Projects Documentation**  
+  Educaition Research project paper - including code and visuals.
+
+  [Insert Link]
+
 - **Data Visualization Dashboard**  
   Developed interactive dashboards in Power BI and Tableau to visualize key performance indicators (KPIs) for telecommunications and
   vehicle fleet management.
